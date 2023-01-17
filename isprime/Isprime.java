@@ -38,23 +38,24 @@ public class Isprime {
 	}
 	
 	// RECURSIVA
-    public static List<Integer> findPrimesFuncRecursive(int n) {
-        findPrimesRecursive(2, n);
-        return primesRecursive;
-    }
+        public static List<Integer> findPrimesFuncRecursive(int n) {
+     	   findPrimesRecursive(2, n);
+        	return primesRecursive;
+    	}
 	
-    private static void findPrimesRecursive(int current, int end) {
-        if (current > end) {
-            return;
-        }
-        if (isPrime(current)) {
+    	private static void findPrimesRecursive(int current, int end) {
+            if (current > end) {
+            	return;
+            }
+            if (isPrime(current)) {
         	primesRecursive.add(current);
-        }
-        findPrimesRecursive(current + 1, end);
-    }
+       	    }
+		
+	    findPrimesRecursive(current + 1, end);
+         }
     
-    // LINEAR
-	public static List<Integer> findPrimes(int n) {
+        // LINEAR
+ 	public static List<Integer> findPrimes(int n) {
 		
 	        if (n <= 1) {
 	            extracted();
@@ -68,15 +69,15 @@ public class Isprime {
 	        return primes;
 	    }
 	
-    private static boolean isPrime(int n) {
-        if(n == 2) return true;
-        if(n % 2 == 0) return false;
-        for (int i = 3; i <= Math.sqrt(n); i += 2) {
-            if (n % i == 0) {
-                return false;
-            }
+    	private static boolean isPrime(int n) {
+		if(n == 2) return true;
+		if(n % 2 == 0) return false;
+		for (int i = 3; i <= Math.sqrt(n); i += 2) {
+		    if (n % i == 0) {
+			return false;
+		    }
+		}
+		return true;
         }
-        return true;
-    }
 }
 
