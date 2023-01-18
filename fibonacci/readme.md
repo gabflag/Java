@@ -33,5 +33,5 @@
     
 # Observações:
   
-   Criado uma validação throw new IllegalArgumentException para que apareça um erro na tela caso o número seja meno do que 0, assim como, uma função para imprimir uma lista (feito isso para que no momento da apresentação da lista aparece a posição de fibonacci). Acredito que todos os desafios anteriormente propostos foram atendidos, caso tenha algum erro de lógica no código, ortografia ou melhores maneiras de serem executadas as tarefas dispostas ficaria grato pela compreensão, aprecio sugestões para melhorar.
+   Criado uma validação throw new IllegalArgumentException para que apareça um erro na tela caso o número seja menor do que 0, assim como, uma função para imprimir uma lista (feito isso para que no momento da apresentação da lista aparece a posição de fibonacci). Acredito que todos os desafios anteriormente propostos foram atendidos, caso tenha algum erro de lógica no código, ortografia ou melhores maneiras de serem executadas as tarefas dispostas ficaria grato pela compreensão, aprecio sugestões para melhorar.
 
