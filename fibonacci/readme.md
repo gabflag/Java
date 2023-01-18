@@ -2,7 +2,8 @@
 
 # Tecnologias utilizadas:
 
-  - JAVA 1.8;
+  - JAVA 1.8 e bibliotecas 'java.util.Scanner', 'java.util.ArrayList' e 'java.util.List'.
+
   
 # A respeito do programa:
 
@@ -17,13 +18,6 @@
     --- Função recursiva que resolva fibonacci;
     --- Função linear que resolva fibonnaci.
 
-
-# Objetivo:
-  
-  * Consulta, criação, atualização e exclusão de usuários no banco de dados;
-  * Demonstrar como pode ser realizado a integração de um banco de dados com um programa funcional;
-  * Demonstrar a criação de uma interface gráfica.
-
 # Pontos a serem melhorados:
   
   - Programa adicional especifico para testes.
@@ -37,7 +31,8 @@
     
 # Observações:
   
-   Acredito que todos os desafios anteriormente propostos foram atendidos, caso tenha algum erro de lógica no código, ortografia ou melhores maneiras de serem executadas as tarefas dispostas ficaria grato pela compreensão, aprecio sugestões para melhorar.
+   
+   Criado uma validação throw new IllegalArgumentException para que apareça um erro na tela caso o número seja meno do que 0, assim como, uma função para imprimir uma lista (feito isso para que no momento da apresentação da lista aparece a posição de fibonacci). Acredito que todos os desafios anteriormente propostos foram atendidos, caso tenha algum erro de lógica no código, ortografia ou melhores maneiras de serem executadas as tarefas dispostas ficaria grato pela compreensão, aprecio sugestões para melhorar.
 
 
 
