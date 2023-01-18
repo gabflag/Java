@@ -58,7 +58,7 @@ public class Isprime {
  	public static List<Integer> findPrimes(int n) {
 		
 	        if (n <= 1) {
-	            extracted();
+	            validate();
 	        }
 	        List<Integer> primes = new ArrayList<>();
 	        for (int i = 2; i <= n; i++) {
