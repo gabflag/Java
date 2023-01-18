@@ -14,7 +14,7 @@ public class Isprime {
 		int n = teclado.nextInt();
 		
         if (n <= 1) {
-            extracted();
+            validate();
         }
 		
 		System.out.println("\nLista de números primos até o número: " + n);
@@ -33,7 +33,7 @@ public class Isprime {
 	}
 
 	// ERRO
-	private static void extracted() {
+	private static void validate() {
 		throw new IllegalArgumentException("A entrada deve ser maior do que 1");
 	}
 	
